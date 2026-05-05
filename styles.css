@@ -1,0 +1,14 @@
+html {
+    background-color: #f0d24b;
+    font-family: 'IBMPlexSans', sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    color: cadetblue;
+    letter-spacing: -5px;
+    line-height: 1;
+    font-weight: 700;
+    font-style: italic;
+    max-width: 500px;
+}
