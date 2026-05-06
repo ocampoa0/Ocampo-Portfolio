@@ -1,6 +1,6 @@
 html {
     background-color: #f0d24b;
-    font-family: 'IBMPlexSans', sans-serif;
+    font-family: 'Birthstone', cursive;
 }
 
 h1 {
@@ -9,46 +9,13 @@ h1 {
     letter-spacing: -5px;
     line-height: 1;
     font-weight: 700;
-    font-style: italic;
+    font-style: normal;
     max-width: 500px;
 }
 
 body {
     margin: 0;
+    font-family: 'Kedebideri', sans-serif;
     min-height: 100vh;
     position: relative;
 }
-
-.marquee-bar {
-    position: fixed;
-    inset: auto 0 0 0;
-    background: #0c1b2f;
-    color: #f9f9f9;
-    padding: 8px 0;
-    overflow: hidden;
-    z-index: 50;
-}
-
-.marquee-track {
-    display: inline-flex;
-    white-space: nowrap;
-    animation: marquee 12s linear infinite;
-}
-
-.marquee-track span {
-    font-size: 100px;
-    font-weight: 900;
-    margin-right: 4rem;
-    letter-spacing: 0.05em;
-    display: inline-block;
-}
-
-@keyframes marquee {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-50%);
-    }
-}
-
