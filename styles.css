@@ -5,8 +5,9 @@ html {
 
 h1 {
     font-size: 80px;
+    font-family: 'Birthstone', cursive;
     color: cadetblue;
-    letter-spacing: -5px;
+    letter-spacing: 5px;
     line-height: 1;
     font-weight: 700;
     font-style: normal;
